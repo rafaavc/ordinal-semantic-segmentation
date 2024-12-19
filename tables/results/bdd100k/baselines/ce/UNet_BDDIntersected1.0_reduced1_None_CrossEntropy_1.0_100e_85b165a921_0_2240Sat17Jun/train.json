@@ -1,0 +1,48 @@
+{
+  "activation": "None",
+  "batch_size": 16,
+  "chosen_loss": 0.5288475960493088,
+  "dataset": "BDDIntersected",
+  "dataset_mask_type": "reduced1",
+  "dataset_scale": 1.0,
+  "folds": {
+    "0": {
+      "loss": 0.56452643374602,
+      "n_epochs": 25
+    },
+    "1": {
+      "loss": 0.5540853361288707,
+      "n_epochs": 17
+    },
+    "2": {
+      "loss": 0.5599794348080953,
+      "n_epochs": 27
+    },
+    "3": {
+      "loss": 0.5688890010118485,
+      "n_epochs": 22
+    },
+    "4": {
+      "loss": 0.5288475960493088,
+      "n_epochs": 26
+    }
+  },
+  "k": 5,
+  "log_interval": 5,
+  "loss": "CrossEntropy",
+  "lr": 0.0001,
+  "lr_fac": 0.1,
+  "max_epochs": 100,
+  "model": "UNet",
+  "model_name": "UNet_final_bdd100k/baselines/UNet_BDDIntersected1.0_reduced1_None_CrossEntropy_1.0_100e_85b165a921_",
+  "num_classes": 7,
+  "only_first_fold": false,
+  "patience": 100,
+  "pretrained": false,
+  "refinement": 1,
+  "regularization_weight": 1.0,
+  "seed": 1,
+  "semisupervised": false,
+  "training_duration_per_fold_s": 9149.201295614243,
+  "use_cuda": true
+}

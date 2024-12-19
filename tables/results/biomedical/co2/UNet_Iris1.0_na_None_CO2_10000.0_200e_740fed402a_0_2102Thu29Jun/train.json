@@ -1,0 +1,48 @@
+{
+  "activation": "None",
+  "batch_size": 16,
+  "chosen_loss": 6.261243769997044,
+  "dataset": "Iris",
+  "dataset_mask_type": "na",
+  "dataset_scale": 1.0,
+  "folds": {
+    "0": {
+      "loss": 6.7071852684021,
+      "n_epochs": 181
+    },
+    "1": {
+      "loss": 6.261243769997044,
+      "n_epochs": 194
+    },
+    "2": {
+      "loss": 6.730406635685971,
+      "n_epochs": 175
+    },
+    "3": {
+      "loss": 6.719789404618113,
+      "n_epochs": 186
+    },
+    "4": {
+      "loss": 6.372681454608315,
+      "n_epochs": 186
+    }
+  },
+  "k": 5,
+  "log_interval": 5,
+  "loss": "CO2",
+  "lr": 0.0001,
+  "lr_fac": 0.1,
+  "max_epochs": 200,
+  "model": "UNet",
+  "model_name": "UNet_final/CO2_1000/UNet_Iris1.0_na_None_CO2_10000.0_200e_740fed402a_",
+  "num_classes": 4,
+  "only_first_fold": false,
+  "patience": 100,
+  "pretrained": false,
+  "refinement": 1,
+  "regularization_weight": 10000.0,
+  "seed": 1,
+  "semisupervised": false,
+  "training_duration_per_fold_s": 10810.214854478836,
+  "use_cuda": true
+}

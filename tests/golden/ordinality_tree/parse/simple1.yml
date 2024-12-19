@@ -1,0 +1,16 @@
+input:
+  0:
+    1:
+      2:
+        3:
+          4:
+            5:
+output: |
+  [0]
+      [1]
+          [2]
+              [3]
+                  [4]
+                      [5]
+contains_abstract_nodes: false
+is_multi_ordinal: false

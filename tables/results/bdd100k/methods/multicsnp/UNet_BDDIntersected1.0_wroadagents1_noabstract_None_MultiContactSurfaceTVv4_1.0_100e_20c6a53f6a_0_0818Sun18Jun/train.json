@@ -1,0 +1,48 @@
+{
+  "activation": "None",
+  "batch_size": 16,
+  "chosen_loss": 0.5789724071820577,
+  "dataset": "BDDIntersected",
+  "dataset_mask_type": "wroadagents1_noabstract",
+  "dataset_scale": 1.0,
+  "folds": {
+    "0": {
+      "loss": 0.626110416650772,
+      "n_epochs": 19
+    },
+    "1": {
+      "loss": 0.6039856960376103,
+      "n_epochs": 21
+    },
+    "2": {
+      "loss": 0.6282798488934834,
+      "n_epochs": 35
+    },
+    "3": {
+      "loss": 0.6288809100786845,
+      "n_epochs": 34
+    },
+    "4": {
+      "loss": 0.5789724071820577,
+      "n_epochs": 31
+    }
+  },
+  "k": 5,
+  "log_interval": 5,
+  "loss": "MultiContactSurfaceTVv4",
+  "lr": 0.0001,
+  "lr_fac": 0.1,
+  "max_epochs": 100,
+  "model": "UNet",
+  "model_name": "UNet_final_bdd100k/multicsnp/UNet_BDDIntersected1.0_wroadagents1_noabstract_None_MultiContactSurfaceTVv4_1.0_100e_20c6a53f6a_",
+  "num_classes": 14,
+  "only_first_fold": false,
+  "patience": 100,
+  "pretrained": false,
+  "refinement": 1,
+  "regularization_weight": 1.0,
+  "seed": 1,
+  "semisupervised": false,
+  "training_duration_per_fold_s": 15522.667483329773,
+  "use_cuda": true
+}

@@ -1,0 +1,17 @@
+input:
+  0:
+    1:
+      2:
+        is_abstract:
+      6:
+        7:
+          8:
+            is_abstract:
+          9:
+is_multi_ordinal: false
+output: |
+  [0]
+      [1]
+          [6]
+              [7]
+                  [9]

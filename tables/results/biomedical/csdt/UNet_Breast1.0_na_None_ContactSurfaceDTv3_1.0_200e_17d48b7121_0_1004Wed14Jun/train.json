@@ -1,0 +1,48 @@
+{
+  "activation": "None",
+  "batch_size": 16,
+  "chosen_loss": 0.05720353499054909,
+  "dataset": "Breast",
+  "dataset_mask_type": "na",
+  "dataset_scale": 1.0,
+  "folds": {
+    "0": {
+      "loss": 0.07673158869147301,
+      "n_epochs": 184
+    },
+    "1": {
+      "loss": 0.07681071758270264,
+      "n_epochs": 187
+    },
+    "2": {
+      "loss": 0.07967795431613922,
+      "n_epochs": 187
+    },
+    "3": {
+      "loss": 0.07170213758945465,
+      "n_epochs": 200
+    },
+    "4": {
+      "loss": 0.05720353499054909,
+      "n_epochs": 190
+    }
+  },
+  "k": 5,
+  "log_interval": 5,
+  "loss": "ContactSurfaceDTv3",
+  "lr": 0.0001,
+  "lr_fac": 0.1,
+  "max_epochs": 200,
+  "model": "UNet",
+  "model_name": "UNet_final_DT/UNet_Breast1.0_na_None_ContactSurfaceDTv3_1.0_200e_17d48b7121_",
+  "num_classes": 4,
+  "only_first_fold": false,
+  "patience": 100,
+  "pretrained": false,
+  "refinement": 1,
+  "regularization_weight": 1.0,
+  "seed": 1,
+  "semisupervised": false,
+  "training_duration_per_fold_s": 2908.7127134799957,
+  "use_cuda": true
+}

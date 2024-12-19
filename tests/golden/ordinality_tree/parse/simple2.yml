@@ -1,0 +1,17 @@
+input:
+  0:
+    1:
+      2:
+        3:
+          4:
+            is_abstract:
+            5:
+is_multi_ordinal: false
+contains_abstract_nodes: true
+output: |
+  [0]
+      [1]
+          [2]
+              [3]
+                  [4, abstract]
+                      [5]

@@ -1,0 +1,48 @@
+{
+  "activation": "MultiOrdinalEncoding",
+  "batch_size": 16,
+  "chosen_loss": 0.38219602443277834,
+  "dataset": "BDD10K",
+  "dataset_mask_type": "wroadagents1_nodrivable",
+  "dataset_scale": 1.0,
+  "folds": {
+    "0": {
+      "loss": 0.38219602443277834,
+      "n_epochs": 41
+    },
+    "1": {
+      "loss": 0.4007397275418043,
+      "n_epochs": 36
+    },
+    "2": {
+      "loss": 0.4011800533160567,
+      "n_epochs": 42
+    },
+    "3": {
+      "loss": 0.38337144125252964,
+      "n_epochs": 42
+    },
+    "4": {
+      "loss": 0.392992196418345,
+      "n_epochs": 42
+    }
+  },
+  "k": 5,
+  "log_interval": 5,
+  "loss": "CrossEntropyProbs",
+  "lr": 0.0001,
+  "lr_fac": 0.1,
+  "max_epochs": 100,
+  "model": "UNet",
+  "model_name": "UNet_final_bdd100k/kelwin/UNet_BDD10K1.0_wroadagents1_nodrivable_MultiOrdinalEncoding_CrossEntropyProbs_1.0_100e_34908b5243_",
+  "num_classes": 16,
+  "only_first_fold": false,
+  "patience": 10,
+  "pretrained": false,
+  "refinement": 0,
+  "regularization_weight": 1.0,
+  "seed": 1,
+  "semisupervised": false,
+  "training_duration_per_fold_s": 13101.191234827042,
+  "use_cuda": true
+}

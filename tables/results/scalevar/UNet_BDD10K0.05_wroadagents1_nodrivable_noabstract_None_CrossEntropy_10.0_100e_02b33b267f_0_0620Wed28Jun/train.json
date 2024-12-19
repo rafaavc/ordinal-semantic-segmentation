@@ -1,0 +1,48 @@
+{
+  "activation": "None",
+  "batch_size": 16,
+  "chosen_loss": 0.5486804023385048,
+  "dataset": "BDD10K",
+  "dataset_mask_type": "wroadagents1_nodrivable_noabstract",
+  "dataset_scale": 0.05,
+  "folds": {
+    "0": {
+      "loss": 0.611809030175209,
+      "n_epochs": 46
+    },
+    "1": {
+      "loss": 0.5486804023385048,
+      "n_epochs": 60
+    },
+    "2": {
+      "loss": 0.5682597458362579,
+      "n_epochs": 56
+    },
+    "3": {
+      "loss": 0.6058291345834732,
+      "n_epochs": 44
+    },
+    "4": {
+      "loss": 0.69349205493927,
+      "n_epochs": 61
+    }
+  },
+  "k": 5,
+  "log_interval": 5,
+  "loss": "CrossEntropy",
+  "lr": 0.0001,
+  "lr_fac": 0.1,
+  "max_epochs": 100,
+  "model": "UNet",
+  "model_name": "UNet_final_bdd100k/scalevar/UNet_BDD10K0.05_wroadagents1_nodrivable_noabstract_None_CrossEntropy_10.0_100e_02b33b267f_",
+  "num_classes": 12,
+  "only_first_fold": false,
+  "patience": 10,
+  "pretrained": false,
+  "refinement": 0,
+  "regularization_weight": 10.0,
+  "seed": 1,
+  "semisupervised": false,
+  "training_duration_per_fold_s": 898.9567739963531,
+  "use_cuda": true
+}

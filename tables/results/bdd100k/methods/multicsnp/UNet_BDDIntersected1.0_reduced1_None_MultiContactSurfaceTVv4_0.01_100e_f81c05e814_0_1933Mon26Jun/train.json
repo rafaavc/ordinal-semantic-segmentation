@@ -1,0 +1,48 @@
+{
+  "activation": "None",
+  "batch_size": 16,
+  "chosen_loss": 0.5312348107496897,
+  "dataset": "BDDIntersected",
+  "dataset_mask_type": "reduced1",
+  "dataset_scale": 1.0,
+  "folds": {
+    "0": {
+      "loss": 0.5827004303534825,
+      "n_epochs": 18
+    },
+    "1": {
+      "loss": 0.5429484715064367,
+      "n_epochs": 23
+    },
+    "2": {
+      "loss": 0.5365539729595185,
+      "n_epochs": 24
+    },
+    "3": {
+      "loss": 0.564674170811971,
+      "n_epochs": 25
+    },
+    "4": {
+      "loss": 0.5312348107496897,
+      "n_epochs": 21
+    }
+  },
+  "k": 5,
+  "log_interval": 5,
+  "loss": "MultiContactSurfaceTVv4",
+  "lr": 0.0001,
+  "lr_fac": 0.1,
+  "max_epochs": 100,
+  "model": "UNet",
+  "model_name": "UNet_final_bdd100k/multicsnp_001/UNet_BDDIntersected1.0_reduced1_None_MultiContactSurfaceTVv4_0.01_100e_f81c05e814_",
+  "num_classes": 7,
+  "only_first_fold": false,
+  "patience": 10,
+  "pretrained": false,
+  "refinement": 0,
+  "regularization_weight": 0.01,
+  "seed": 1,
+  "semisupervised": false,
+  "training_duration_per_fold_s": 3123.387672662735,
+  "use_cuda": true
+}

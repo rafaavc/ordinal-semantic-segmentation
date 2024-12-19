@@ -1,0 +1,48 @@
+{
+  "activation": "None",
+  "batch_size": 16,
+  "chosen_loss": 1.2851924896240234,
+  "dataset": "KelwinTeethISBI",
+  "dataset_mask_type": "na",
+  "dataset_scale": 1.0,
+  "folds": {
+    "0": {
+      "loss": 1.461216926574707,
+      "n_epochs": 194
+    },
+    "1": {
+      "loss": 1.562358021736145,
+      "n_epochs": 194
+    },
+    "2": {
+      "loss": 1.2851924896240234,
+      "n_epochs": 192
+    },
+    "3": {
+      "loss": 1.4245446920394897,
+      "n_epochs": 200
+    },
+    "4": {
+      "loss": 1.7619847059249878,
+      "n_epochs": 199
+    }
+  },
+  "k": 5,
+  "log_interval": 5,
+  "loss": "ContactSurfaceTVv4",
+  "lr": 0.0001,
+  "lr_fac": 0.1,
+  "max_epochs": 200,
+  "model": "UNet",
+  "model_name": "UNet_final/UNet_KelwinTeethISBI1.0_na_None_ContactSurfaceTVv4_100.0_200e_df58f76581_",
+  "num_classes": 5,
+  "only_first_fold": false,
+  "patience": 100,
+  "pretrained": false,
+  "refinement": 1,
+  "regularization_weight": 100.0,
+  "seed": 1,
+  "semisupervised": false,
+  "training_duration_per_fold_s": 2889.215025663376,
+  "use_cuda": true
+}

@@ -1,0 +1,48 @@
+{
+  "activation": "HardOrdinal",
+  "batch_size": 16,
+  "chosen_loss": 0.044289025232980124,
+  "dataset": "Iris",
+  "dataset_mask_type": "na",
+  "dataset_scale": 1.0,
+  "folds": {
+    "0": {
+      "loss": 0.04755194740075814,
+      "n_epochs": 163
+    },
+    "1": {
+      "loss": 0.044289025232980124,
+      "n_epochs": 192
+    },
+    "2": {
+      "loss": 0.04798745226703192,
+      "n_epochs": 174
+    },
+    "3": {
+      "loss": 0.048648239358475336,
+      "n_epochs": 190
+    },
+    "4": {
+      "loss": 0.04435173461311742,
+      "n_epochs": 170
+    }
+  },
+  "k": 5,
+  "log_interval": 5,
+  "loss": "CrossEntropyProbs",
+  "lr": 0.0001,
+  "lr_fac": 0.1,
+  "max_epochs": 200,
+  "model": "UNet",
+  "model_name": "UNet_final_kelwin/UNet_Iris1.0_na_HardOrdinal_CrossEntropyProbs_1.0_200e_2c94795c98_",
+  "num_classes": 4,
+  "only_first_fold": false,
+  "patience": 100,
+  "pretrained": false,
+  "refinement": 1,
+  "regularization_weight": 1.0,
+  "seed": 1,
+  "semisupervised": false,
+  "training_duration_per_fold_s": 6757.024507284164,
+  "use_cuda": true
+}

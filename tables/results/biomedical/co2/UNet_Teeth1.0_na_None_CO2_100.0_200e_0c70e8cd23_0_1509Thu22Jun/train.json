@@ -1,0 +1,48 @@
+{
+  "activation": "None",
+  "batch_size": 16,
+  "chosen_loss": 0.9021260142326355,
+  "dataset": "Teeth",
+  "dataset_mask_type": "na",
+  "dataset_scale": 1.0,
+  "folds": {
+    "0": {
+      "loss": 1.421231985092163,
+      "n_epochs": 97
+    },
+    "1": {
+      "loss": 1.136584758758545,
+      "n_epochs": 191
+    },
+    "2": {
+      "loss": 1.0587934255599976,
+      "n_epochs": 194
+    },
+    "3": {
+      "loss": 0.9021260142326355,
+      "n_epochs": 183
+    },
+    "4": {
+      "loss": 1.269485354423523,
+      "n_epochs": 197
+    }
+  },
+  "k": 5,
+  "log_interval": 5,
+  "loss": "CO2",
+  "lr": 0.0001,
+  "lr_fac": 0.1,
+  "max_epochs": 200,
+  "model": "UNet",
+  "model_name": "UNet_final/biomedical/co2/teeth/UNet_Teeth1.0_na_None_CO2_100.0_200e_0c70e8cd23_",
+  "num_classes": 4,
+  "only_first_fold": false,
+  "patience": 100,
+  "pretrained": false,
+  "refinement": 1,
+  "regularization_weight": 100.0,
+  "seed": 1,
+  "semisupervised": false,
+  "training_duration_per_fold_s": 1483.8387098312378,
+  "use_cuda": true
+}

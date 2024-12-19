@@ -1,0 +1,48 @@
+{
+  "activation": "OrdinalEncoding",
+  "batch_size": 16,
+  "chosen_loss": 0.8040260076522827,
+  "dataset": "Teeth",
+  "dataset_mask_type": "na",
+  "dataset_scale": 1.0,
+  "folds": {
+    "0": {
+      "loss": 0.8996293544769287,
+      "n_epochs": 193
+    },
+    "1": {
+      "loss": 0.8754541873931885,
+      "n_epochs": 191
+    },
+    "2": {
+      "loss": 0.8785826563835144,
+      "n_epochs": 198
+    },
+    "3": {
+      "loss": 0.8437886834144592,
+      "n_epochs": 190
+    },
+    "4": {
+      "loss": 0.8040260076522827,
+      "n_epochs": 199
+    }
+  },
+  "k": 5,
+  "log_interval": 5,
+  "loss": "CrossEntropyProbs",
+  "lr": 0.0001,
+  "lr_fac": 0.1,
+  "max_epochs": 200,
+  "model": "UNet",
+  "model_name": "UNet_final_kelwin/UNet_Teeth1.0_na_OrdinalEncoding_CrossEntropyProbs_1.0_200e_f5bea17843_",
+  "num_classes": 4,
+  "only_first_fold": false,
+  "patience": 100,
+  "pretrained": false,
+  "refinement": 1,
+  "regularization_weight": 1.0,
+  "seed": 1,
+  "semisupervised": false,
+  "training_duration_per_fold_s": 1956.486469745636,
+  "use_cuda": true
+}

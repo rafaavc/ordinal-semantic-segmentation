@@ -1,0 +1,11 @@
+__pycache__
+*.model
+results/*
+sbatch-*.txt
+.venv
+.pytest_cache
+.vscode
+*.csv
+old/
+*.out
+

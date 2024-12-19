@@ -1,0 +1,48 @@
+{
+  "activation": "None",
+  "batch_size": 16,
+  "chosen_loss": 0.20400790870189667,
+  "dataset": "Teeth",
+  "dataset_mask_type": "na",
+  "dataset_scale": 1.0,
+  "folds": {
+    "0": {
+      "loss": 0.36156556010246277,
+      "n_epochs": 190
+    },
+    "1": {
+      "loss": 0.257859468460083,
+      "n_epochs": 191
+    },
+    "2": {
+      "loss": 0.24640697240829468,
+      "n_epochs": 196
+    },
+    "3": {
+      "loss": 0.20400790870189667,
+      "n_epochs": 192
+    },
+    "4": {
+      "loss": 0.30844858288764954,
+      "n_epochs": 184
+    }
+  },
+  "k": 5,
+  "log_interval": 5,
+  "loss": "CrossEntropy",
+  "lr": 0.0001,
+  "lr_fac": 0.1,
+  "max_epochs": 200,
+  "model": "UNet",
+  "model_name": "UNet_final/UNet_Teeth1.0_na_None_CrossEntropy_1.0_200e_dca8ea8637_",
+  "num_classes": 4,
+  "only_first_fold": false,
+  "patience": 100,
+  "pretrained": false,
+  "refinement": 1,
+  "regularization_weight": 1.0,
+  "seed": 1,
+  "semisupervised": false,
+  "training_duration_per_fold_s": 1993.1679997444153,
+  "use_cuda": true
+}

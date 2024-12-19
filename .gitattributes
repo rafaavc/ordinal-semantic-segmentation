@@ -1,0 +1,5 @@
+notebooks/** linguist-vendored
+tests/** linguist-vendored
+*.ipynb linguist-vendored
+scripts/** linguist-vendored
+*.sh linguist-vendored

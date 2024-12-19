@@ -1,0 +1,48 @@
+{
+  "activation": "None",
+  "batch_size": 16,
+  "chosen_loss": 0.30900643169879916,
+  "dataset": "CervixMobileODT",
+  "dataset_mask_type": "na",
+  "dataset_scale": 1.0,
+  "folds": {
+    "0": {
+      "loss": 0.3216042081514994,
+      "n_epochs": 163
+    },
+    "1": {
+      "loss": 0.33895134230454765,
+      "n_epochs": 200
+    },
+    "2": {
+      "loss": 0.32125508089860283,
+      "n_epochs": 173
+    },
+    "3": {
+      "loss": 0.30900643169879916,
+      "n_epochs": 194
+    },
+    "4": {
+      "loss": 0.329116686185201,
+      "n_epochs": 193
+    }
+  },
+  "k": 5,
+  "log_interval": 5,
+  "loss": "ContactSurfaceDTv3",
+  "lr": 0.0001,
+  "lr_fac": 0.1,
+  "max_epochs": 200,
+  "model": "UNet",
+  "model_name": "UNet_final_DT/UNet_CervixMobileODT1.0_na_None_ContactSurfaceDTv3_10.0_200e_d8a6c14aba_",
+  "num_classes": 5,
+  "only_first_fold": false,
+  "patience": 100,
+  "pretrained": false,
+  "refinement": 1,
+  "regularization_weight": 10.0,
+  "seed": 1,
+  "semisupervised": false,
+  "training_duration_per_fold_s": 17121.879172563553,
+  "use_cuda": true
+}

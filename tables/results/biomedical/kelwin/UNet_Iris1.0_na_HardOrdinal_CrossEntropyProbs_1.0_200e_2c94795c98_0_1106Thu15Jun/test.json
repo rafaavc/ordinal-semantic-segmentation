@@ -1,0 +1,187 @@
+{
+  "0": {
+    "confusion_matrix": [
+      [
+        0.9933,
+        0.0057,
+        0.001,
+        0.0
+      ],
+      [
+        0.0453,
+        0.935,
+        0.0198,
+        0.0
+      ],
+      [
+        0.0111,
+        0.0177,
+        0.9604,
+        0.0108
+      ],
+      [
+        0.0007,
+        0.0014,
+        0.1987,
+        0.7991
+      ]
+    ],
+    "contact_surface": 0.1281,
+    "dice_coefficient_macro": 0.9345,
+    "dice_coefficient_micro": 0.9812,
+    "iou_macro": 0.8805,
+    "iou_micro": 0.963,
+    "mae": 0.0142,
+    "percentage_of_unimodal_px": 0.0068,
+    "stdout": "train: 1453, test: 364\n\n--------------------\nTEST RESULTS\n\npercentage_of_unimodal_px: 0.0068\ncontact_surface: 0.1281\ndice_coefficient_macro: 0.9345\ndice_coefficient_micro: 0.9812\niou_macro: 0.8805\niou_micro: 0.963\nmae: 0.0142\nconfusion_matrix: [[0.9933, 0.0057, 0.001, 0.0], [0.0453, 0.935, 0.0198, 0.0], [0.0111, 0.0177, 0.9604, 0.0108], [0.0007, 0.0014, 0.1987, 0.7991]]\ntest_loss: 0.0\n--------------------\n",
+    "test_loss": 0.0
+  },
+  "1": {
+    "confusion_matrix": [
+      [
+        0.993,
+        0.0057,
+        0.0013,
+        0.0
+      ],
+      [
+        0.0474,
+        0.9385,
+        0.0141,
+        0.0
+      ],
+      [
+        0.0103,
+        0.0283,
+        0.9491,
+        0.0123
+      ],
+      [
+        0.0011,
+        0.0023,
+        0.1777,
+        0.8189
+      ]
+    ],
+    "contact_surface": 0.1251,
+    "dice_coefficient_macro": 0.9358,
+    "dice_coefficient_micro": 0.9808,
+    "iou_macro": 0.8824,
+    "iou_micro": 0.9622,
+    "mae": 0.0146,
+    "percentage_of_unimodal_px": 0.0088,
+    "stdout": "train: 1453, test: 364\n\n--------------------\nTEST RESULTS\n\npercentage_of_unimodal_px: 0.0088\ncontact_surface: 0.1251\ndice_coefficient_macro: 0.9358\ndice_coefficient_micro: 0.9808\niou_macro: 0.8824\niou_micro: 0.9622\nmae: 0.0146\nconfusion_matrix: [[0.993, 0.0057, 0.0013, 0.0], [0.0474, 0.9385, 0.0141, 0.0], [0.0103, 0.0283, 0.9491, 0.0123], [0.0011, 0.0023, 0.1777, 0.8189]]\ntest_loss: 0.0\n--------------------\n",
+    "test_loss": 0.0
+  },
+  "2": {
+    "confusion_matrix": [
+      [
+        0.9928,
+        0.0062,
+        0.001,
+        0.0
+      ],
+      [
+        0.0424,
+        0.9438,
+        0.0137,
+        0.0001
+      ],
+      [
+        0.0119,
+        0.0291,
+        0.9422,
+        0.0168
+      ],
+      [
+        0.0012,
+        0.0019,
+        0.15,
+        0.8469
+      ]
+    ],
+    "contact_surface": 0.1125,
+    "dice_coefficient_macro": 0.938,
+    "dice_coefficient_micro": 0.9811,
+    "iou_macro": 0.8859,
+    "iou_micro": 0.9629,
+    "mae": 0.0144,
+    "percentage_of_unimodal_px": 0.0083,
+    "stdout": "train: 1453, test: 364\n\n--------------------\nTEST RESULTS\n\npercentage_of_unimodal_px: 0.0083\ncontact_surface: 0.1125\ndice_coefficient_macro: 0.938\ndice_coefficient_micro: 0.9811\niou_macro: 0.8859\niou_micro: 0.9629\nmae: 0.0144\nconfusion_matrix: [[0.9928, 0.0062, 0.001, 0.0], [0.0424, 0.9438, 0.0137, 0.0001], [0.0119, 0.0291, 0.9422, 0.0168], [0.0012, 0.0019, 0.15, 0.8469]]\ntest_loss: 0.0\n--------------------\n",
+    "test_loss": 0.0
+  },
+  "3": {
+    "confusion_matrix": [
+      [
+        0.993,
+        0.0057,
+        0.0012,
+        0.0
+      ],
+      [
+        0.0446,
+        0.9392,
+        0.0161,
+        0.0001
+      ],
+      [
+        0.0096,
+        0.0267,
+        0.9393,
+        0.0244
+      ],
+      [
+        0.0006,
+        0.002,
+        0.1267,
+        0.8707
+      ]
+    ],
+    "contact_surface": 0.1227,
+    "dice_coefficient_macro": 0.937,
+    "dice_coefficient_micro": 0.981,
+    "iou_macro": 0.8843,
+    "iou_micro": 0.9627,
+    "mae": 0.0146,
+    "percentage_of_unimodal_px": 0.0108,
+    "stdout": "train: 1453, test: 364\n\n--------------------\nTEST RESULTS\n\npercentage_of_unimodal_px: 0.0108\ncontact_surface: 0.1227\ndice_coefficient_macro: 0.937\ndice_coefficient_micro: 0.981\niou_macro: 0.8843\niou_micro: 0.9627\nmae: 0.0146\nconfusion_matrix: [[0.993, 0.0057, 0.0012, 0.0], [0.0446, 0.9392, 0.0161, 0.0001], [0.0096, 0.0267, 0.9393, 0.0244], [0.0006, 0.002, 0.1267, 0.8707]]\ntest_loss: 0.0\n--------------------\n",
+    "test_loss": 0.0
+  },
+  "4": {
+    "confusion_matrix": [
+      [
+        0.9945,
+        0.0046,
+        0.0008,
+        0.0
+      ],
+      [
+        0.0532,
+        0.9284,
+        0.0184,
+        0.0
+      ],
+      [
+        0.0142,
+        0.0207,
+        0.95,
+        0.0151
+      ],
+      [
+        0.0016,
+        0.0014,
+        0.1581,
+        0.8389
+      ]
+    ],
+    "contact_surface": 0.1271,
+    "dice_coefficient_macro": 0.938,
+    "dice_coefficient_micro": 0.9813,
+    "iou_macro": 0.886,
+    "iou_micro": 0.9632,
+    "mae": 0.0142,
+    "percentage_of_unimodal_px": 0.0074,
+    "stdout": "train: 1453, test: 364\n\n--------------------\nTEST RESULTS\n\npercentage_of_unimodal_px: 0.0074\ncontact_surface: 0.1271\ndice_coefficient_macro: 0.938\ndice_coefficient_micro: 0.9813\niou_macro: 0.886\niou_micro: 0.9632\nmae: 0.0142\nconfusion_matrix: [[0.9945, 0.0046, 0.0008, 0.0], [0.0532, 0.9284, 0.0184, 0.0], [0.0142, 0.0207, 0.95, 0.0151], [0.0016, 0.0014, 0.1581, 0.8389]]\ntest_loss: 0.0\n--------------------\n",
+    "test_loss": 0.0
+  }
+}

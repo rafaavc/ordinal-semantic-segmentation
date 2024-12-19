@@ -1,0 +1,48 @@
+{
+  "activation": "HardOrdinalParallel",
+  "batch_size": 16,
+  "chosen_loss": 1.3642315864562988,
+  "dataset": "Teeth",
+  "dataset_mask_type": "na",
+  "dataset_scale": 1.0,
+  "folds": {
+    "0": {
+      "loss": 1.6527220010757446,
+      "n_epochs": 186
+    },
+    "1": {
+      "loss": 1.6005752086639404,
+      "n_epochs": 189
+    },
+    "2": {
+      "loss": 1.3891040086746216,
+      "n_epochs": 199
+    },
+    "3": {
+      "loss": 1.3752235174179077,
+      "n_epochs": 165
+    },
+    "4": {
+      "loss": 1.3642315864562988,
+      "n_epochs": 188
+    }
+  },
+  "k": 5,
+  "log_interval": 5,
+  "loss": "CrossEntropyProbs",
+  "lr": 0.0001,
+  "lr_fac": 0.1,
+  "max_epochs": 200,
+  "model": "UNet",
+  "model_name": "UNet_final_kelwin/UNet_Teeth1.0_na_HardOrdinalParallel_CrossEntropyProbs_1.0_200e_08b0ca92e9_",
+  "num_classes": 4,
+  "only_first_fold": false,
+  "patience": 100,
+  "pretrained": false,
+  "refinement": 1,
+  "regularization_weight": 1.0,
+  "seed": 1,
+  "semisupervised": false,
+  "training_duration_per_fold_s": 1891.3100724220276,
+  "use_cuda": true
+}
